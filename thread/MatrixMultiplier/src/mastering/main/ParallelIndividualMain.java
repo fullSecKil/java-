@@ -5,6 +5,9 @@ import mastering.parallel.individual.ParallelIndividualMultiplier;
 
 import java.util.Date;
 
+/**
+ *  每一个元素一个线程
+ */
 public class ParallelIndividualMain {
     public static void main(String[] args) {
         double matrix1[][] = MatrixGenerator.generate(2000, 2000);
